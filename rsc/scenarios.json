@@ -1,0 +1,37 @@
+{
+    "scenarios": [
+        {
+            "name": "Stable System",
+            "bodies": [
+                { "x": 300, "y": 300, "z": 0, "vx": 0, "vy": 0, "vz": 0, "mass": 1e17, "radius": 10, "color": [255, 0, 0] },
+                { "x": 500, "y": 300, "z": 10, "vx": 0, "vy": 200, "vz": 0, "mass": 1e12, "radius": 10, "color": [0, 255, 0] },
+                { "x": 800, "y": 300, "z": 10, "vx": 0, "vy": 100, "vz": 10, "mass": 1e13, "radius": 10, "color": [0, 0, 255] },
+                { "x": 1000, "y": 300, "z": 10, "vx": 10, "vy": 30, "vz": 0, "mass": 1e12, "radius": 10, "color": [0, 255, 255] }
+            ]
+        },
+        {
+            "name": "Unstable System",
+            "bodies": [
+                { "x": 300, "y": 300, "z": 0, "vx": 0, "vy": 0, "vz": 0, "mass": 1e17, "radius": 10, "color": [255, 0, 0] },
+                { "x": 500, "y": 300, "z": 10, "vx": 0, "vy": 200, "vz": 0, "mass": 1e12, "radius": 10, "color": [0, 255, 0] },
+                { "x": 800, "y": 300, "z": 10, "vx": 0, "vy": 100, "vz": 10, "mass": 1e16, "radius": 10, "color": [0, 0, 255] },
+                { "x": 1000, "y": 300, "z": 10, "vx": 25, "vy": 15, "vz": 0, "mass": 1e12, "radius": 10, "color": [0, 255, 255] }
+            ]
+        },
+        {
+            "name": "Earth, Moon",
+            "bodies": [
+                { "x": 800, "y": 300, "z": 10, "vx": 0, "vy": 0, "vz": 0, "mass": 2e14, "radius": 8, "color": [0, 0, 255] },
+                { "x": 820, "y": 300, "z": 10, "vx": 0, "vy": 25, "vz": 0, "mass": 1e9, "radius": 2, "color": [0, 255, 255] }
+            ]
+        },
+        {
+            "name": "Sun, Earth, Moon",
+            "bodies": [
+                { "x": 300, "y": 300, "z": 0, "vx": 0, "vy": 0, "vz": 0, "mass": 1e17, "radius": 10, "color": [255, 0, 0] },
+                { "x": 1500, "y": 300, "z": 10, "vx": 0, "vy": 60, "vz": 10, "mass": 2e14, "radius": 8, "color": [0, 0, 255] },
+                { "x": 1520, "y": 300, "z": 10, "vx": 0, "vy": 85, "vz": 10, "mass": 1e9, "radius": 2, "color": [0, 255, 255] }
+            ]
+        }
+    ]
+}
