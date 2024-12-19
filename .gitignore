@@ -1,0 +1,6 @@
+# Build files
+build/*
+# Any helper bash scripts
+*.sh
+# vscode jsons
+*.vscode/
